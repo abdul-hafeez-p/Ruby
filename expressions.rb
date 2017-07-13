@@ -31,17 +31,17 @@ end
 # elsif ()
 class Bigger
 def big(x,y,z)
-	if(x > y && z)
+	if(x > y && x > z)
 		puts x
-	elsif (y > x && z)
+	elsif (y > x && y > z)
 		puts y
 	else
 		puts z
 	end
 end
- 
-B = Bigger.new
-B.big(5,6,7)
+end
+a=Bigger.new
+a.big(15,61,10)
 
 			
 			
