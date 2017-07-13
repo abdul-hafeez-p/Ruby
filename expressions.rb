@@ -41,7 +41,12 @@ def big(x,y,z)
 end
 end
 a=Bigger.new
-a.big(15,61,10)
+a.big(15,61,100)
+
+
+
+
+	
 
 			
 			
