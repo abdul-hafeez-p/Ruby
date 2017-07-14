@@ -45,5 +45,5 @@ check = /[a-z]@gmail.com/ =~ "#{mail}"
 if check == 0
 	puts "Valid gmail A/c"
 else
-	puts "Invalid gmail A/c"
+	puts "Invalid gmail A/c "
 end

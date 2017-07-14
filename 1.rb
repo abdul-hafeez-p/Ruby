@@ -351,12 +351,92 @@ puts "#{A['e']}"=end
 # D=Div.new
 # D.div(10,5)
 
-class Sub
-	def sub(a,b)
-		c = a - b
-		puts c				
-	end		
-end
-S=Sub.new
-S.sub(4,3)
+# class Sub
+# 	def sub(a,b)
+# 		c = a - b
+# 		puts c				
+# 	end		
+# end
+# S=Sub.new
+# S.sub(4,3)
 
+class Forl
+	def Fl
+		for i in 0..3
+			puts "Hello"
+			end
+		end
+	end
+
+
+f=Forl.new
+f.Fl()
+
+
+$i=0
+$n=5
+until $i > 5 do
+	puts "UNTIL"
+	$i+=1
+end
+
+$j=0
+until $j > 4  do
+	puts "3"
+	$j+=1
+end
+
+(1..3).each do |i|
+	puts "each"
+end
+
+# $k = gets.chomp
+# for i in (0..5)
+# 	if $k = 3 then
+# 		break
+# 	end
+# 	puts "Hi"
+# end
+# $i=0
+# for j in (0..9)
+# 	puts "for"
+	
+# end
+
+# (0..3).each do |i|
+# 	puts "afor"
+# end
+
+# s = 4.next
+# puts s
+
+begin
+	raise "Test"
+rescue Exception => e
+	puts e.message
+	puts e.backtrace.inspect
+ensure
+	puts "Execution ensured"
+end
+
+begin
+	raise "Exception"
+rescue Exception => e
+	puts e
+ensure
+	puts "Execution ensured for 2nd time"
+end
+
+
+x=gets.chomp
+y=gets.chomp
+	if y=0
+		begin
+			raise "Divide by zero"
+		rescue Exception => e
+			puts e
+		else
+			ensure 
+		puts "Cool"
+	end
+end
